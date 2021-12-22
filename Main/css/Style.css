@@ -1,0 +1,298 @@
+/* reset + padroes */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    background-color: #212121;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+/* fontes google */
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+/* titulos (font-family: 'Sriracha', cursive;) */
+/* txt (font-family: 'Passion One', cursive); */
+
+/* config titulos fontes */
+.titulos {
+    font-family: 'Sriracha', cursive;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+}
+
+/* config textos fontes */
+.textos {
+    font-family: 'Passion One', cursive;
+    color: #fff;
+    font-size: 1em;
+}
+
+/* header */
+header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* menu */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.hover:hover {
+    text-decoration: underline;
+}
+
+nav h1 {
+    font-weight: bold;
+    padding: 5px;
+}
+
+/* serviços */
+.servicos {
+    text-align: center;
+    margin-top: 2px;
+}
+
+/* cards */
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-radius: 10px;
+    padding: 10px 30px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+    background-color: #333333;
+    margin: 10px;
+}
+
+.card h2 {
+    padding-bottom: 10px;
+}
+
+.card li {
+    padding: 10px;
+}
+
+.card>p,
+.card>h2,
+.card li {
+    background-color: #333333;
+}
+
+/* quebra a linha dos cards */
+@media (max-width: 1300px) {
+    .row {
+        flex-wrap: wrap;
+    }
+}
+
+/* bordas cards */
+.blue {
+    border-left: 3px solid #4895ff;
+}
+
+.green {
+    border-left: 3px solid #3bb54a;
+}
+
+.red {
+    border-left: 3px solid #b3404a;
+}
+
+.cian {
+    border-left: 3px solid #00ffff;
+}
+
+/* formulario */
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #212121;
+    border: 1px solid #cacaca;
+    padding-left: 3px;
+}
+
+::placeholder {
+    font-family: 'Sriracha', cursive;
+    font-size: 1em;
+    color: #fff;
+    text-align: center;
+}
+
+textarea {
+    border: 1px solid #cacaca;
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    background-color: #212122;
+    padding: 1px 3px 0px 3px;
+}
+
+/* config select  e opticon */
+select,
+option {
+    width: 170px;
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* config botoes */
+button,
+input[type="submit"] {
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 30%;
+    height: 100%;
+    background-color: #212121;
+    border: 1px solid #cacaca;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.form p {
+    padding: 10px 55px;
+    text-align: center;
+}
+
+.voltar_form_div {
+    text-align: center;
+}
+
+.voltar_form {
+    text-align: center;
+    border-radius: 5px;
+    width: 150px;
+    height: 100%;
+    background-color: #212121;
+    border: 1px solid #cacaca;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.voltar_form:hover {
+    text-decoration: none;
+}
+
+/* alert confirm */
+.alert {
+    background-color: green;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 15px 0 15px 0;
+    cursor: pointer;
+    animation: alert 4s ease 0s normal none;
+}
+
+@keyframes alert {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/* config tabela */
+.table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: auto;
+}
+
+table {
+    width: 90%;
+    border: 1px solid #cacaca;
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+td {
+    border: 1px solid #cacaca;
+    padding: 5px;
+}
+
+/* tamanhos dos campos */
+/* tamanhos dos campos */
+td:first-child {
+    width: 9%;
+}
+
+td:nth-child(2) {
+    width: 9%;
+}
+
+td:nth-child(3) {
+    width: 18%;
+}
+
+td:nth-child(4) {
+    width: 8%;
+}
+
+td:nth-child(5) {
+    width: 10%;
+}
+
+td:nth-child(6) {
+    width: 35%;
+}
+
+td:nth-child(7) {
+    width: 15%;
+}
+
+thead,
+th {
+    height: 30px;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+}
+
+footer i {
+    padding-left: 5px;
+}
