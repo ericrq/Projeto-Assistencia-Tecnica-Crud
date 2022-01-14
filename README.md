@@ -4,8 +4,10 @@
 
 # Interface Principal
  Com Alguns Banners, Cards, e o Formulario Com Crud!
+ 
 <img src="img/prints/pagina-principal.png" alt="pagina principal">
 
-# Pagina Administrativa 
+# Pagina Administrativa  
  Com uma Tabela Crud, Com Registros do Formulario!
+
 <img src="img/prints/crud.png" alt="tabela crud">
