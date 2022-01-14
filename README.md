@@ -8,6 +8,6 @@
 <img src="img/prints/pagina-principal.png" alt="pagina principal">
 
 # Pagina Administrativa  
- Uma Tabela com opçoes Crud, Com Registros do Formulario!
+ Tabela com opçoes Crud, Com Registros do Formulario!
 
 <img src="img/prints/crud.png" alt="tabela crud">
