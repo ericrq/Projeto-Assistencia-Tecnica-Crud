@@ -10,4 +10,4 @@
 # Pagina Administrativa  
  Tabela com opçoes Crud, Com Registros do Formulario!
 
-<img src="img/prints/crud.png" alt="tabela crud">
+<img src="img/prints/adm-crud.png" alt="tabela crud">
