@@ -1,6 +1,6 @@
 <div align="center">
 
-# Projeto Assistencia Tecnica<br>Framework Laravel
+# Projeto Assistencia Tecnica<br>PHP POO
 
 <div align="justify">
 Este É Um Projeto De Uma Assistência Técnica Fictícia Que Conta Com Uma Página Simples, Um Formulário Para Registro De Solicitações E Uma Tabela De Administração Para Gerenciamento Das Mesmas. Para O Desenvolvimento Do Projeto, Foi Aplicado o Conceito CRUD Usando PHP e POO.
