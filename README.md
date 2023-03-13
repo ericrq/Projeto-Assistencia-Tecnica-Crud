@@ -3,7 +3,7 @@
 # Projeto Assistencia Tecnica<br>Framework Laravel
 
 <div align="justify">
-Este É Um Projeto De Uma Assistência Técnica Fictícia Que Conta Com Uma Página Simples, Um Formulário Para Registro De Solicitações E Uma Tabela De Administração Para Gerenciamento Das Mesmas. Para O Desenvolvimento Do Projeto, Foi Aplicado o Conceito CRUD Utilizando O Framework Laravel.
+Este É Um Projeto De Uma Assistência Técnica Fictícia Que Conta Com Uma Página Simples, Um Formulário Para Registro De Solicitações E Uma Tabela De Administração Para Gerenciamento Das Mesmas. Para O Desenvolvimento Do Projeto, Foi Aplicado o Conceito CRUD Usando PHP e POO.
 </div><br>
 
 ![Pagina Principal](img/prints/pagina-principal.png)
