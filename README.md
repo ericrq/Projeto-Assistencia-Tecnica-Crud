@@ -1,13 +1,22 @@
-# Projeto Assistencia Tecnica
- Projeto de uma assitencia tecnica com uma pagina simples, um formulario para registro e tabela de administraçao<br>
- foi aplicado CRUD com POO e uma pequena parte de responsividade!
+<div align="center">
 
-# Interface Principal
- Alguns Banners, Cards, e o Formulario Para Registro!
+# Projeto Assistencia Tecnica<br>Framework Laravel
 
-<img src="img/prints/pagina-principal.png" alt="pagina principal">
+<div align="justify">
+Este É Um Projeto De Uma Assistência Técnica Fictícia Que Conta Com Uma Página Simples, Um Formulário Para Registro De Solicitações E Uma Tabela De Administração Para Gerenciamento Das Mesmas. Para O Desenvolvimento Do Projeto, Foi Aplicado o Conceito CRUD Utilizando O Framework Laravel.
+</div><br>
 
-# Pagina Administrativa  
- Tabela com opçoes Crud, Com Registros do Formulario!
+![Pagina Principal](img/prints/pagina-principal.png)
 
-<img src="img/prints/adm-crud.png" alt="tabela crud">
+<div align="justify">
+Na Imagem Acima, Podemos Observar A Página Inicial Do Site Que Apresenta Diversas Opções de Serviços Disponíveis para os Clientes. Há Um Slider Em Destaque que Exibe Alguns dos Serviços Oferecidos, Além De Cards Com Outras Opções Disponíveis. Para Solicitar um Orçamento, Há Um Formulário Disponível Para Os Clientes Preencherem.
+</div><br>
+
+![Tabela Crud](img/prints/adm-crud.png)
+
+<div align="justify">
+Na Imagem Acima Temos A Tabela De Administração Onde O Administrador Pode Ver Todas As Solicitações Feitas Pelos Clientes, Também Pode Editar E Excluir As Solicitações.
+</div>
+
+
+</div>
